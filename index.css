@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa; /* เปลี่ยนสีพื้นหลัง */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่างของหัวข้อ */
+}
+
+p {
+    color: #666;
+    margin-bottom: 10px; /* เพิ่มระยะห่างด้านล่างของข้อความปกติ */
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff; /* เปลี่ยนสีพื้นหลังปุ่ม */
+    color: white; /* เปลี่ยนสีข้อความในปุ่ม */
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s; /* เพิ่มเอฟเฟกต์การเปลี่ยนสีเมื่อโฮเวอร์ */
+    margin-bottom: 5px;
+}
+
+button:hover {
+    background-color: #0056b3; /* เปลี่ยนสีพื้นหลังปุ่มเมื่อโฮเวอร์ */
+}
+
+#wordDisplay {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333; /* เปลี่ยนสีข้อความ */
+}
+
+#resultDisplay {
+    margin-bottom: 10px;
+}
+
+#score {
+    font-weight: bold;
+    color: #28a745; /* เปลี่ยนสีข้อความคะแนน */
+}
+
+/* CSS สำหรับมือถือ */
+@media only screen and (max-width: 600px) {
+    /* ปรับขนาดและการจัดวางขององค์ประกอบ */
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    input[type="text"] {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    #wordDisplay {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #resultDisplay {
+        margin-bottom: 5px;
+    }
+
+    #score {
+        font-size: 16px;
+    }
+}

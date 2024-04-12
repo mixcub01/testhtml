@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Word Guessing Game</h1>
+    <p>Guess the word:</p>
+    <p id="wordDisplay"></p>
+    <input type="text" id="guessInput"><br>
+    <button onclick="checkGuess()">Guess</button>
+    <button onclick="startNewGame()">Start New Game</button><br>
+    <button onclick="startNewGame('fruits')">Fruits</button>
+    <button onclick="startNewGame('countries')">Countries</button>
+    <button onclick="startNewGame('brands')">Brands</button>
+    <h1> ใส่คำให้เพื่อนเดากันนน</h1>
+    <button onclick="startCustomGame()">Start Custom Game</button>
+
+    <!-- เพิ่มปุ่มเพื่อเปลี่ยนกลุ่มคำที่จะทาย -->
+    <p id="resultDisplay"></p>
+    <p>Score: <span id="score">0</span></p>
+    <script src="index.js"></script>
+</body>
+</html>
+
+<input type="text" id="customWordInput" placeholder="Enter your word">
+
