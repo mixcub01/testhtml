@@ -1,9 +1,12 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Seymour One", sans-serif;
     text-align: center;
     background-color: #f8f9fa; /* เปลี่ยนสีพื้นหลัง */
     margin: 0;
     padding: 0;
+}
+.fontthai{
+    font-family: "Noto Sans Thai", sans-serif; /* ฟอนต์ไทย */
 }
 
 h1 {
@@ -33,6 +36,7 @@ button {
     border-radius: 4px;
     transition: background-color 0.3s; /* เพิ่มเอฟเฟกต์การเปลี่ยนสีเมื่อโฮเวอร์ */
     margin-bottom: 5px;
+    font-family: "Poppins", sans-serif; /* ฟอนต์อังกฤษของปุ่ม */
 }
 
 button:hover {
